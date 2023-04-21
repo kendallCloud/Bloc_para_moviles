@@ -22,7 +22,7 @@ class GifService {
   final String endPoint = '/v1/gifs/trending';
 
   // TODO: Copia aqui tu APi Key
-  final String apiKey = '';
+  final String apiKey = 'INYHO1op4qwyuzSlbhRUH449AKZwzmzX';
 
   Future<List<String>> fetchGifs() async {
     final uri = Uri.http(baseUrl, endPoint, {'api_key': apiKey});
